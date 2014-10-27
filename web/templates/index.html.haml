@@ -1,0 +1,6 @@
+%h1= title
+
+Pick a deck to get started:
+- for deck <- decks do
+  %p
+    %a(href="/assessments/#{deck["id"]}") Start #{deck["name"]}
